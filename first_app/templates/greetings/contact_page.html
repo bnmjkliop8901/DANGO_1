@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <h2>Contact</h2>
+    {{ form.as_p }}
+    <div>
+        {{ form.name.label_tag }}
+        {{ form.name }}
+        {{ form.name.errors }}
+    </div>
+    <h2>Hello0</h2>
+    <div>
+        {{ form.email.label_tag }}
+        {{ form.email }}
+        {{ form.email.errors }}
+    </div>
+</html>
